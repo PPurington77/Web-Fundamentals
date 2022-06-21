@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+#search {
+    background-color: white;
+    color: aquamarine;
+    font-weight: 900;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    margin:10px;
+    width: 100px;
+    padding:5px;
+}
+
+#plus {
+    background-color: aquamarine;
+    color: white;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid aquamarine;
+}
+
+#account {
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid black;
+    margin:10px;
+    padding: 10px;
+    box-shadow: 3px 5px 1px black;
+}
