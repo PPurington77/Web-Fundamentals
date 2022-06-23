@@ -21,6 +21,7 @@
 .nav-links {
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
 a {
@@ -30,7 +31,6 @@ a {
 
 li {
     list-style-type: none;
-    margin: 0px 15px;
 }
 
 .active {
