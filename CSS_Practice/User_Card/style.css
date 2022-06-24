@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+#container {
+    width: 800px;
+    /* height: 400px; */
+    background-color: white;
+    outline: solid 1px gray;
+    padding-bottom: 20px; 
+}
+
+#topRec {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(38, 169, 212);
+}
+
+#user {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    /* position: relative; this isn't changing anything ??? */
+    margin-top: 50px;
+}
+
+#bottomRec {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#marker {
+    height: 15px;
+    margin-right: 10px;
+}
+
+#links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+#gear {
+    height: 20px;
+}
+
+h2, h3 {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
