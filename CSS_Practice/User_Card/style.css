@@ -15,6 +15,7 @@ body {
     background-color: white;
     outline: solid 1px gray;
     padding-bottom: 20px; 
+    position: relative;
 }
 
 #topRec {
@@ -26,9 +27,9 @@ body {
 #user {
     height: 100px;
     width: 100px;
-    margin-left: 20px;
-    /* position: relative; this isn't changing anything ??? */
-    margin-top: 50px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
 }
 
 #bottomRec {
