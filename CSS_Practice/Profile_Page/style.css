@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#leftHead {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+    margin-left: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    height: 25px;
+    width: 75px;
+    margin-right: 75px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+#container {
+    display: flex;
+    outline: solid 2px red;
+    padding: 10px;
+}
+
+#boxLeft {
+    flex: 2;
+    padding: 10px;
+    outline: solid 2px green;
+}
+
+#userBox {
+    outline: solid 2px grey;
+}
+#userTop {
+    background-color: dodgerblue;
+    height: 75px;
+    position: relative;
+}
+
+#user {
+    height: 75px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+#userBottom {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#userBottom > h3 {
+    margin: 10px 0px;
+}
+
+#userLink {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.smallImg {
+    height: 15px;
+    margin-right: 5px;
+}
+
+#profileButton {
+    color: dodgerblue
+}
+
+#boxRight {
+    flex: 1;
+}
