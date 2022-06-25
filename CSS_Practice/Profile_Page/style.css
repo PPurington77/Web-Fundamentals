@@ -10,7 +10,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 400px;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -20,7 +20,6 @@
     align-items: center;
     list-style-type: none;
     gap: 40px;
-    margin-left: 75px;
 }
 
 a {
@@ -35,7 +34,6 @@ span {
 button {
     height: 25px;
     width: 75px;
-    margin-right: 75px;
     background-color: dodgerblue;
     color: white;
 }
@@ -46,31 +44,31 @@ button:hover {
 
 #container {
     display: flex;
-    outline: solid 2px red;
-    padding: 10px 100px;
+    padding: 10px 400px;
 }
 
 #boxLeft {
     flex: 2;
     padding: 10px;
-    outline: solid 2px green;
 }
 
 #userBox {
-    outline: solid 2px grey;
+    outline: solid 4px grey;
     margin-bottom: 20px;
 }
 #userTop {
     background-color: dodgerblue;
     height: 75px;
-    position: relative;
 }
 
 #user {
     height: 75px;
-    position: absolute;
+    width: 75px;
+    position: relative;
     top: 30px;
     left: 10px;
+    border-radius: 50%;
+    border: solid 3px white;
 }
 
 #userBottom {
@@ -98,15 +96,14 @@ button:hover {
 }
 
 .extraBox {
-    outline: solid 2px grey;
+    outline: solid 4px grey;
+    margin: 0px 0px 20px 0px;
 }
 
 .extraTop {
     background-color: rgb(48, 48, 48);
     color: white;
     padding: 10px 15px;
-    display: flex;
-    align-items: center;
 }
 
 .extraBottom {
@@ -132,12 +129,7 @@ button:hover {
     height: 35px;
     background-color: lightgray;
     color: black;
-}
-
-.extraTop p {
-    /* outline: solid 2px pink; */
-    width: 200px;
-    margin-left: -65px;
+    margin-right: 30px;
 }
 
 .profilePic {
@@ -155,8 +147,30 @@ button:hover {
 .request {
     display: flex;
     align-items: center;
+    margin: 10px 0px;
 }
 
+.list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+}
 
+#ycButton {
+    width: 45px;
+    height: 30px;
+}
 
+.linkBox {
+    outline: solid 2px grey;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.linkBox a {
+    color: blue;
+    text-decoration: underline;
+}
