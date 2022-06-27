@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: aquamarine;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+.topButtons {
+    background-color: burlywood;
+    color: black;
+    padding: 2px 7px;
+    box-shadow: 2px 2px black;
+}
+
+#searchButton input {
+    padding: 3px 2px;
+    width: 240px;
+}
+
+#searchButton {
+    display: flex;
+    gap: 5px;
+}
+
+#container {
+    margin: 20px 40px 0px;
+    display: flex;
+    /* outline: 2px solid red; */
+    /* height: 800px; */
+    gap: 20px;
+}
+
+#col-left {
+    flex: 2;
+}
+
+#col-right {
+    flex: 1;
+    /* outline: 2px solid green; */
+}
+
+.boxLeft {
+    outline: 2px solid gray;
+    padding: 10px 30px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.leftPics {
+    height: 150px;
+    width: 150px;
+}
+
+.nameBreed {
+    text-align: center;
+    /* margin-right: 20px; */
+}
+
+.likeButton {
+    background-color: aquamarine;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    width: 80px;
+    box-shadow: 3px 3px black;
+}
+
+.boxRight {
+    outline: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.boxRight p {
+    font-size: 1.1rem;
+}
+
+.boxRight button {
+    background-color: goldenrod;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    box-shadow: 3px 3px black;
+}
+
+video {
+    margin: 10px 0px;
+}
+
+#firstP {
+    text-align: center;
+}
+
+#popUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    height: 100px;
+    margin: 0px 40px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 0px 20px;
+    gap: 20px;
+    position: fixed;
+    bottom: 175px;
+    /* width: 100vw; */
+}
+#popUp img {
+    height: 50px;
+    width: 50px;
+}
+
+#popUp button {
+    width: 100px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+}
