@@ -1,21 +1,22 @@
-// var count = 0;
-// var count2 = 0;
-// var count3 = 0;
-// function increaseLikes(element) {
-//     console.log("likes")
-//     if (element == document.querySelector("#box1")) {
-//         count++;
-//         element.innerText = count + " Like(s)";
-//     }
-//     else if (element == document.querySelector("#box2")) {
-//         count2++;
-//         element.innerText = count2 + " Like(s)";
-//     }
-//     else if (element == document.querySelector("#box3")) {
-//         count3++;
-//         element.innerText = count3 + " Like(s)";
-//     }
-// }
+var count = 0;
+var count2 = 0;
+var count3 = 0;
+function increaseLikes2(id) {
+    console.log("likes")
+    var element = document.querySelector(id);
+    if (id == "#box1") {
+        count++;
+        element.innerText = count + " Like(s)";
+    }
+    else if (id == "#box2") {
+        count2++;
+        element.innerText = count2 + " Like(s)";
+    }
+    else if (id == "#box3") {
+        count3++;
+        element.innerText = count3 + " Like(s)";
+    }
+}
 var count = 0
 function increaseLikes(element) {
     console.log("likes");
