@@ -27,13 +27,13 @@
                         <img id="user" src="./images/user-circle.png" alt="profile picture">
                     </div>
                     <div id="userBottom">
-                        <h2>Jane Doe</h2>
+                        <h2 id="userName">Jane Doe</h2>
                         <h3><img class="smallImg" src="./icons/map-marker.png" alt="map marker">Seattle</h3>
                         <p>Developer | Engineer | Problem Solver</p>
                         <p>Master of the Shadows and the Internet!</p>
                         <div id="userLink">
                             <img class="smallImg" src="./icons/gear.png" alt="gear">
-                            <a id="profileButton" href="#">edit profile</a>
+                            <a id="profileButton" href="#" onclick="changeName('#userName')">edit profile</a>
                         </div>
                     </div>
                 </div>
@@ -61,24 +61,24 @@
                         </ul>
                     </div>
                     <div class="extraBottom">
-                        <div class="request">
+                        <div class="request" id="firstReq">
                             <img class="profilePic" src="./images/todd-s.jpg" alt="Todd">
                             <p>Todd E.</p>
-                            <img class="medImg" src="./icons/accept-circle.png" alt="accept">
-                            <img class="medImg" src="./icons/close-circle.png" alt="ignore">
+                            <img class="medImg" src="./icons/accept-circle.png" alt="accept" id="firstReq" onclick="removeRequest('#firstReq')">
+                            <img class="medImg" src="./icons/close-circle.png" alt="ignore" id="firstReq2" onclick="removeRequest('#firstReq2')">
                         </div>
-                        <div class="request">
+                        <div class="request" id="secondReq">
                             <img class="profilePic" src="./images/phil-s.jpg" alt="Phil">
                             <p>Phil K.</p>
-                            <img class="medImg" src="./icons/accept-circle.png" alt="accept">
-                            <img class="medImg" src="./icons/close-circle.png" alt="ignore">
+                            <img class="medImg" src="./icons/accept-circle.png" alt="accept" id="secondReq" onclick="removeRequest('#secondReq')">
+                            <img class="medImg" src="./icons/close-circle.png" alt="ignore" id="secondReq2" onclick="removeRequest('#secondReq2')">
                         </div>
                     </div>
                 </div>
                 <div class="extraBox">
                     <div class="extraTop">
                         <ul class="list">
-                            <li><button class="rightButton" id="ycButton">500+</button></li>
+                            <li><button class="rightButton" id="ycButton">500</button></li>
                             <li>Your</li>
                             <li>Connections</li>
                         </ul>
@@ -107,5 +107,6 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

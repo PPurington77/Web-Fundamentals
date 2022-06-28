@@ -10,7 +10,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px 400px;
+    padding: 10px 40px;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -44,7 +44,7 @@ button:hover {
 
 #container {
     display: flex;
-    padding: 10px 400px;
+    padding: 10px 40px;
 }
 
 #boxLeft {
