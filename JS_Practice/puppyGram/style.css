@@ -95,6 +95,9 @@ h1 {
     box-shadow: 3px 3px black;
 }
 
+.boxRight button:hover {
+    background-color: white;
+}
 video {
     margin: 10px 0px;
 }

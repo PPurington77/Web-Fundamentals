@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    margin: 0px 40px 20px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+#pageTop {
+    margin: 10px 40px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#container {
+    margin: 0px 40px;
+    display: flex;
+}
+
+#avatarBox {
+    border: 2px solid black;
+    flex: 1;
+    padding: 10px;
+    margin-right: 30px;
+    text-align: center;
+    height: 300px;
+}
+
+#avatarBox a, h2 {
+    display: block;
+    /* outline: 2px solid pink; */
+    margin: 30px;
+}
+
+#col-Right {
+    flex: 2;
+    /* border: 2px solid black; */
+}
+
+.feedBox {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.topFeed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.topFeed button {
+    padding: 5px;
+    width: 60px;
+    background-color: gold;
+    box-shadow: 3px 3px black;
+}
+
+.bottomFeed {
+    padding: 15px;
+}
