@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    padding: 0px 50px;
+}
+#header {
+    height: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3.4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+#leftHead {
+    display: flex;
+    align-items: center;
+}
+#leftHead img {
+    height: 75px;
+}
+
+#rightHead {
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid red; */
+    gap: 20px;
+}
+
+#rightHead img {
+    height: 50px;
+}
+
+#rightHead p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* done with header-----------------------------------------*/
+
+#nav-bar {
+    display: flex;
+    /* border: 2px solid purple; */
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    padding: 5px 0px;
+    align-items: center;
+}
+
+#nav-bar img {
+    height: 15px;
+    position: relative;
+    right: 20px;
+    top: 3px;
+}
+
+#nav-bar a {
+    color: black;
+}
+
+#nav-bar input {
+    height: 25px;
+    width: 200px;
+    padding: 2px 5px; 
+    border-radius: 5px;
+}
+
+/* done with nav-bar ------------------------------*/
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    font-style: italic;
+    margin: 10px 0px;
+}
+
+/* done with h2 --------------------------------------*/
+
+#playerPics {
+    background-color: coral;
+    /* height: 200px; will be determined by content and padding */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.player img {
+    height: 120px;
+}
+
+.player {
+    text-align: center;
+    font-size: .8rem;
+}
+
+/* done with players -------------------------*/
+
+#main {
+    /* border: 2px solid purple; */
+    /* height: 300px; */
+    display: flex;
+    margin: 20px 0px;
+}
+
+#col-left {
+    flex: 1;
+    /* border: 2px solid yellow; */
+    margin-right: 20px;
+}
+
+#miniBox {
+    display: flex;
+    align-items: center;
+    background-color: coral;
+    padding: 5px 20px;
+    border-radius: 30px;
+    gap: 30px;
+}
+#miniBox img {
+    height: 75px;
+}
+
+#miniBox h3 {
+    font-size: 1.5rem;
+}
+
+#col-leftPic {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* done with left side of main div ------------------*/
+
+#col-right {
+    flex: 2; 
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    background-color: coral;
+}
+
+#col-right img {
+    width: 225px;
+    height: 300px;
+}
+
+#rightMiniBox {
+    text-align: center;
+    padding: 0px 10px;
+}
+
+#rightMiniBox p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#rightMiniBox button {
+    margin: 20px 0px;
+    width: 150px;
+    padding: 5px 0px;
+    border-radius: 20px;
+    background-color: wheat;
+    box-shadow: 3px 3px black;
+}
+
+/* done with right side of main div------------*/
+
+#bottomPage {
+    background-color: grey;
+    padding: 20px;
+}
+
+#bottomPage p:first-child {
+    text-align: center;
+}
+
+/* done with bottom page---------------------------*/
+
+#cookieBox {
+    background-color: goldenrod;
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    /* height: 300px; */
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 800px;
+    border: 1px solid black;
+}
+
+#cookieBox img {
+    height: 80px;
+}
+
+#cookieBox button {
+    width: 200px;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    box-shadow: 3px 3px black;
+}
+
+/* done with cookie box */

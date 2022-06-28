@@ -29,3 +29,12 @@ function hidePopUp(element) {
 }
 //used to eliminate an entire section instead of a single item
 //used with on click
+
+function incrementLike(id) {
+    console.log("liking", id);
+    var element = document.querySelector(id);
+    console.log("element looks like this", element.innerText);
+    let likeCount = Number(element.innerText);
+    likeCount+=1;
+    element.innerText = likeCount;
+}
