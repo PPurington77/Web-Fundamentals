@@ -36,5 +36,11 @@ function incrementLike(id) {
     console.log("element looks like this", element.innerText);
     let likeCount = Number(element.innerText);
     likeCount+=1;
-    element.innerText = likeCount;
 }
+    
+function alertMessageFromInput() {
+    let searchInput = document.querySelector("#search");
+    alert("you searched for " + searchInput.value);
+}
+
+//will alert whatever your input into the search bar was
