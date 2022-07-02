@@ -1,0 +1,21 @@
+@media only screen and (max-width: 480px) {
+    .sm-4 {
+        background-color: yellow;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 481px) {
+    .md-2 {
+        background-color: red;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lg-1 {
+        background-color: purple;
+        width: 25%;
+    }
+}

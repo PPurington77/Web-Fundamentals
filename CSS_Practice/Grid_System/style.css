@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    /* outline: 2px solid blue; */
+    padding: 10px 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    height: 100px;
+    background-color: purple;
+    outline: 2px solid white;
+    width: 25%;
+
+}
